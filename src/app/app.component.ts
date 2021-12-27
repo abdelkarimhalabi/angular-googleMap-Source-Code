@@ -15,7 +15,7 @@ export class AppComponent implements OnInit{
 
   ngOnInit(): void {
       let loader = new Loader({
-        apiKey : "AIzaSyBkQqXYWZ5qDa_LO7C7CCGtI2aw9phEjn4"
+        apiKey : ""
       });
       loader.load().then(() => {
         new google.maps.Map(document.getElementById('map')!,{
